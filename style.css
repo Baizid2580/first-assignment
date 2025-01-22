@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Fira Sans", serif; */
+
+body{
+    background-color: #f5f5f5;
+}
+
+/* ================ Navigation Start =============== */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 160px;
+    margin-left: 160px;
+}
+nav li{
+    list-style: none;
+}
+.title{
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    color: rgb(14, 14, 14);
+}
+.btn-1{
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: solid 1px rgb(0, 106, 80);
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(0, 106, 80);
+}
+.btn-1:hover{
+   background-color: rgb(0, 106, 80);
+   color: rgb(255, 255, 255);
+}
+/* =============== Navigation End ================ */
+
+
+
+
+/* =============== Banner start =============== */
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 100px;
+}
+.hero{
+    margin-right: 160px;
+    margin-left: 160px;
+    margin-top: 20px;
+    background-color: aqua;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+}
+.banner-btn{
+    padding: 17px 34px;
+    border-radius: 8px;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    border: none;
+}
+.banner-btn:hover{
+    color: rgb(0, 106, 80);
+    border: solid 1px rgb(0, 106, 80);
+    background-color: #f5f5f5;
+    border: none;
+}
+.sub-title{
+    font-family: "Fira Sans", serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(14, 14, 14, 0.5);
+}
+.higlight-text{
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-size: 56px;
+    padding-right: 290px;
+}
+
+/* =============== Banner End =============== */
+
+
+.main-1{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    
+}
+.container-1{
+    margin: 80px 160px 80px 160px;
+}
+.single-card{
+    background-color: rgb(255, 255, 255);
+    padding: 24px 24px;
+    border-radius: 16px;
+    border: solid 1px rgba(14, 14, 14, 0.15);   
+}
+.main-1 h3{
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.main-1 p{
+    font-family: "Fira Sans", serif;
+    font-weight: 400; 
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.container-1 h2{
+    font-family: "Fira Sans", serif;
+    font-weight: 700; 
+    font-size: 40px;
+    color: rgba(14, 14, 14, 0.8);
+}
