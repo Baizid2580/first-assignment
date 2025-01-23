@@ -120,3 +120,92 @@ nav li{
     font-size: 40px;
     color: rgba(14, 14, 14, 0.8);
 }
+/*================ End ================ */
+
+.vision-title{
+    margin: 0 160px 0 160px;
+}
+.vision-title h2{
+    font-family: "Fira Sans", serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(14, 14, 14);
+}
+.vision-title p{
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(14, 14, 14); 
+}
+.vision-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    margin: 0 160px 0 160px;
+}
+.vision-card{
+    padding: 32px 32px;
+    border-radius: 16px;   
+}
+.vision-card button{
+    padding: 13px;
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    border: none;
+}
+.vision-card h3{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: "Fira Sans", serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+.vision-card p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.para-container{
+     margin: 32px 160px 0 160px;
+     background-color: rgb(255, 255, 255);
+     border-radius: 16px;
+     border: 1px solid rgba(14, 14, 14, 0.15);;
+}
+.para-item{
+    padding: 48px 24px 48px 24px;
+   
+}
+.para-item p{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-image: url(../assets/quote-bg.png);
+
+}
+.para-item h3{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: "Fira Sans", serif;
+    font-size: 20px;
+    font-weight: 600;   
+}
+.para-item h5{
+    color: rgba(14, 14, 14, 0.6);
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400;   
+}
+/*================ End ================ */
+
+.Recent-nwes{
+    margin: 0 160px 0 160px;
+}
+.nwes-container{
+    display: flex;
+    align-items: flex-start;
+}
