@@ -203,9 +203,99 @@ nav li{
 /*================ End ================ */
 
 .Recent-nwes{
-    margin: 0 160px 0 160px;
+    margin: 0 160px 24px 160px;
+    
 }
 .nwes-container{
     display: flex;
     align-items: flex-start;
+    gap: 32px;
+    padding: 48px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 24px;
+    align-items: center;
+
+}
+.nwes-container img{
+    border-radius: 24px;
+}
+.nwes-container h3{
+    font-family: "Fira Sans", serif;
+    font-size: 32px;
+    font-weight: 700px; 
+    
+}
+.nwes-container h5{
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400px; 
+    color: rgba(14, 14, 14, 0.7); 
+}
+.nwes-container p{
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400px; 
+    color: rgba(14, 14, 14, 0.7); 
+}
+.nwes-container button{
+    font-family: "Fira Sans", serif;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600px; 
+    color: rgb(255, 255, 255); 
+    padding: 13px 26px;
+    background-color: rgb(0, 106, 80);
+    border: none;
+}
+
+.Recent-nwes h2{
+    font-family: "Fira Sans", serif;
+    font-size: 40px;
+    font-weight: 700px;
+    color: rgb(14, 14, 14);
+}
+.rec-para{
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400px;
+    color: rgb(14, 14, 0.7);
+}
+
+/*================ End ================ */
+.donet-container{
+    margin: 0 160px 0 160px;
+    text-align: center;
+}
+.donet-container h2{
+    font-family: "Fira Sans", serif;
+    font-size: 40px;
+    font-weight: 700px;
+    color: rgb(14, 14, 14);
+}
+.donet-container p{
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400px;
+    color: rgb(14, 14, 14);
+    padding: 0 199px;
+}
+.donet-btn{
+    padding: 40px;
+    font-family: "Fira Sans", serif;
+    border-radius: 16px;
+    font-size: 40px;
+    font-weight: 700;
+    border: 1px solid rgba(14, 14, 14, 0.15);  
+}
+.donet-btn:hover{
+    background-color: rgb(198, 228, 214);
+}
+.donet-btns{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+.donet-amount{
+    padding: 20px 40px;
+    width: 952px 24px;
 }
